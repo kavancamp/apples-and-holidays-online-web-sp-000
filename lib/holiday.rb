@@ -29,7 +29,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       holiday_names_hash.each do |holiday_name, supplies|
         supplies << supply
       end
-    end      
+    end
 end
 
 
@@ -66,10 +66,3 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 end
-
-
-
-
-
-
-
